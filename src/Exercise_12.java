@@ -18,7 +18,7 @@ class A5 {
 
         B4 b1 = new B4();
         A5 b2 = new B4(1); // B4 타입 객체를 A5 타입의 변수에 대입
-        System.out.println(b1.a+b2.a);
+        System.out.print(b1.a+b2.a);
         // B4 타입의 필드 a와 A5 타입의 필드 a를 더해준다.
 
     }
@@ -33,12 +33,12 @@ class B4 extends A5 {
     int a = 20;
     public B4(){
         // super()가 생략
-        System.out.println('다');
+        System.out.print('다');
     }
 
     public B4(int x){
         // super()가 생략
-        System.out.println('라');
+        System.out.print('라');
     }
 
 }

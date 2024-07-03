@@ -1,8 +1,6 @@
 
 
 
-
-
 interface Interface{}
 
 public class TestCase {
@@ -17,5 +15,20 @@ public class TestCase {
         System.out.println("test = " + test2);
         System.out.println(Integer.toBinaryString(test2));
     }
+
+}
+
+
+class A20{}
+class A21 extends A20{}
+
+
+class TestCase2{
+    public static void main(String args[]){
+
+
+    }
+
+
 
 }

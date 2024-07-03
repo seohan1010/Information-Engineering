@@ -24,6 +24,9 @@ class B9 extends A9{
 
 }
 
+// 문제를 풀기전에 객체의 타입과 오버라이딩에 대해서 다시한번 생각해보자
+// 그리고 오버라이딩을 오버로딩과 혼돈하지 말자.
+
 public class Exercise_25 {
 
     public static void main(String[] args) {

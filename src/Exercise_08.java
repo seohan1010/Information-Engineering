@@ -9,7 +9,8 @@ class A {
 
 class B extends A {
 
-    B(int a){// 모든 생성자의 첫줄에는 부모 생성자를 호출 하는 super()가 들어가 있다.
+    B(int a){ //super(); // 모든 생성자의 첫줄에는 부모 생성자를 호출 하는 super()가 들어가 있다.
+
         System.out.printf("%d ", a);
     }
 

@@ -3,7 +3,7 @@
 class Super{
 
     Super(){
-        System.out.println('A');
+        System.out.print('A');
     }
 
     Super(char x){

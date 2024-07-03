@@ -7,7 +7,7 @@ class A8 {
     }
 
     public static void g() {
-        System.out.println("2");
+        System.out.print("2");
     }
 
 }
@@ -16,7 +16,7 @@ class B7 extends A8 {
 
 
     public void f(){
-        System.out.println("3");
+        System.out.print("3");
     }
 
 
@@ -27,7 +27,7 @@ class B7 extends A8 {
 class C4 extends B7{
 
     public static void g(){
-        System.out.println("4");
+        System.out.print("4");
     }
 
 }
